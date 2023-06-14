@@ -38,7 +38,7 @@ func main() {
 	}
 	writer.Flush()
 
-	// Reading csv file
+	// Reading data from csv file
 	file, err := os.Open("posts.csv")
 	if err != nil {
 		panic(err)

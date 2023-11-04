@@ -24,7 +24,7 @@ func main() {
 		{Id: "1", Content: "Golang Functions", Author: "Rob Pike"},
 		{Id: "2", Content: "Go web progrqmming", Author: "Ken Thompson"},
 		{Id: "3", Content: "Golang concurrency", Author: "Robert Greismar"},
-		{Id: "4", Content: "Go internships", Author: "King Wood"},
+		{Id: "4", Content: "internships", Author: "King Wood"},
 	}
 
 	//writing data to the csvFile

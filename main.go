@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/csv"
-	"fmt"
 	"os"
 )
 
@@ -53,15 +52,8 @@ func main() {
 		panic(err)
 	}
 
-	var posts []Post
+	_ = record
+	
 
-	for _, item := range record {
-		post := Post{Id: item[0], Content: item[1], Author: item[2]}
-		posts = append(posts, post)
-	}
-
-	fmt.Println(posts[0].Id)
-	fmt.Println(posts[0].Content)
-	fmt.Println(posts[0].Author)
 
 }
